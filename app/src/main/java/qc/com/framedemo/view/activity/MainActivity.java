@@ -15,7 +15,7 @@ import android.view.View;
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.OnClick;
 import qc.com.framedemo.R;
 import qc.com.framedemo.view.BaseActivity;
@@ -30,19 +30,19 @@ public class MainActivity extends BaseActivity {
     /**
      * 底部四个按钮
      */
-    @Bind(R.id.bottom_tab_first)
+    @BindView(R.id.bottom_tab_first)
     public BottomTabView mBottomTabFirst;
-    @Bind(R.id.bottom_tab_second)
+    @BindView(R.id.bottom_tab_second)
     public BottomTabView mBottomTabSecond;
-    @Bind(R.id.bottom_tab_third)
+    @BindView(R.id.bottom_tab_third)
     public BottomTabView mBottomTabThird;
-    @Bind(R.id.bottom_tab_fourth)
+    @BindView(R.id.bottom_tab_fourth)
     public BottomTabView mBottomTabFourth;
-    @Bind(R.id.main_drawer)
+    @BindView(R.id.main_drawer)
     public DrawerLayout mDrawerLayout;
-    @Bind(R.id.nv_main_navigation)
+    @BindView(R.id.nv_main_navigation)
     public NavigationView navigationView;
-    @Bind(R.id.viewpager_fragment)
+    @BindView(R.id.viewpager_fragment)
     public ViewPager mViewPager;
     private FragmentPagerAdapter mAdapter;
     private List<Fragment> mFragments = new ArrayList<Fragment>();

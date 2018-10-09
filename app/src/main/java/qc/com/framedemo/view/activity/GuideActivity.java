@@ -3,13 +3,13 @@ package qc.com.framedemo.view.activity;
 import android.os.Bundle;
 import android.widget.Button;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import qc.com.framedemo.R;
 import qc.com.framedemo.view.BaseActivity;
 
 public class GuideActivity extends BaseActivity {
 
-    @Bind(R.id.to_mainactivity_id)
+    @BindView(R.id.to_mainactivity_id)
     public Button toMainButton;
 
     @Override

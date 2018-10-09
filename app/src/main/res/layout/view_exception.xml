@@ -10,7 +10,7 @@
         android:id="@+id/exception_imageview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/abc_ratingbar_full_material"/>
+        android:src="@drawable/tab_mine_normal"/>
 
     <TextView
         android:id="@+id/exception_textview"

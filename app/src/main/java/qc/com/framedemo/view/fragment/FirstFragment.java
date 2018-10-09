@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import qc.com.framedemo.R;
 import qc.com.framedemo.bean.Page;
 import qc.com.framedemo.view.BaseFragment;
@@ -27,7 +27,7 @@ import qc.com.framedemo.view.widget.SwipeRecyclerView;
 
 public class FirstFragment extends BaseFragment implements SwipeRecyclerView.RefreshLoadMoreListener {
 
-    @Bind(R.id.swipeRecyclerView)
+    @BindView(R.id.swipeRecyclerView)
     public SwipeRecyclerView mSwipeRecyclerView;
 
     private List<Integer> list = new ArrayList<>();
